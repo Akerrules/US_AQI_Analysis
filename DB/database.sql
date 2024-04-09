@@ -25,8 +25,8 @@ CREATE TABLE Pollutant (
     pm10 INTEGER NOT NULL,
     O3_Mean FLOAT NOT NULL,
     CO_Mean FLOAT NOT NULL,
-    SO2_Mean INTEGER NOT NULL,
-    NO2_Mean INTEGER NOT NULL,
+    SO2_Mean FLOAT NOT NULL,
+    NO2_Mean FLOAT NOT NULL,
     Risk_Level VARCHAR NOT NULL
 );
 
@@ -55,6 +55,6 @@ CREATE TABLE AirQuality (
     weather_id BIGINT REFERENCES Weather(weather_id),
     aqi INTEGER NOT NULL,
     aqhi INTEGER NOT NULL,
-    visibility_range INTEGER NOT NULL
+    visibility_range FLOAT NOT NULL
     
 );
