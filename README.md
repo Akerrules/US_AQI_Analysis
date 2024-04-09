@@ -26,7 +26,7 @@ AQI is the primary way to measure the current quality of air, and our project in
 ### Phase 1: Conceptual Design - Dimensional Model
 In this phase, the focus is on understanding the business requirements and defining the high-level data model. The dataset will be used to identify the key entities and their relationships, such as pollutants, monitoring stations, geographical locations, and time dimensions. This will involve understanding the various attributes and their significance in the context of air quality monitoring.
 ![Grain of Data Mart](./resource/data_mart_grain.png=250x)
-<img src="./resource/data_mart_grain.png" alt="grain of data mart" width="200"/>
+<img src="./resource/data_mart_grain.png" alt="grain of data mart" width="400" align="center"/>
 > Grain of the data mart: The AQI, AQHI and visibility range, based upon a US state, on a specific date, with various concentrations of pollutants, of certain weather conditions, as recorded by a monitoring station.
 
 ### Phase 2: Physical Design and Data Staging
