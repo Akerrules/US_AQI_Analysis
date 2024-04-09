@@ -30,8 +30,7 @@ In this phase, the focus is on understanding the business requirements and defin
 
 ### Phase 2: Physical Design and Data Staging
 The physical design phase involves mapping the conceptual model to a physical schema and preparing the data for loading into the data warehouse. The dataset is to be staged and transformed to fit the designed schema via data cleaning, integration and other techniques to ensure consistency and quality of the data.
-![High level schema](./resource/high_level_schema.png=250x)
-<img src="./resource/high_level_schema.png" alt="High level schema" width="600"/>
+<img src="./resource/high_level_schema.png" alt="High level schema" width="800"/>
 > High-Level Schema of Data Mart
 
 ### Phase 3: OLAP Queries and BI Dashboard
