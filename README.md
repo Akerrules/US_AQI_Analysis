@@ -4,7 +4,7 @@
 > Group 20 Project Component - CSI4142: Fundamental of Data Science
 
 ## About 
-**What is Air Quality Insights** 
+**What is Air Quality Insights?** 
 - Index used to determine air quality on a day-to-day basis
 - Determine the impact of polluted air on our health in a given time period
 - Measurement on amount of particles, not mass
@@ -25,12 +25,18 @@ AQI is the primary way to measure the current quality of air, and our project in
 
 ### Phase 1: Conceptual Design - Dimensional Model
 In this phase, the focus is on understanding the business requirements and defining the high-level data model. The dataset will be used to identify the key entities and their relationships, such as pollutants, monitoring stations, geographical locations, and time dimensions. This will involve understanding the various attributes and their significance in the context of air quality monitoring.
+![Grain of Data Mart](./resource/data_mart_grain.png)
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
 
 ### Phase 2: Physical Design and Data Staging
 The physical design phase involves mapping the conceptual model to a physical schema and preparing the data for loading into the data warehouse. The dataset is to be staged and transformed to fit the designed schema via data cleaning, integration and other techniques to ensure consistency and quality of the data.
+![High level schema](./resource/high_level_schema.png)
 
 ### Phase 3: OLAP Queries and BI Dashboard
 Once the data is loaded into the data warehouse, various data science techniques and analytical tools are applied to gain insights. OLAP queries are used to analyze air quality trends over time, across different pollutants, and geographical regions. Business Intelligence (BI) dashboards can be created to visualize the air quality metrics and provide interactive tools for exploration.
+![dashboard](./resource/dashboard.png)
 
 ### Phase 4: Data Mining 
 The dataset will finally undergo data mining to discover patterns and relationships that can help in predicting air quality, identifying factors influencing pollution levels, and suggesting measures for improvement.
