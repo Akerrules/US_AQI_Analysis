@@ -1,17 +1,16 @@
-#  Air Quality Insights(AQI) 
-## Leveraging Data Science for Climate Action
+#  Air Quality Insights(AQI) : Leveraging Data Science for Climate Action
 > Authors: Aditya Kandel, Zijun Ye, Kian Zahrai
 >
 > Group 20 Project Component - CSI4142: Fundamental of Data Science
 
 # About 
-## What is Air Quality Insights
+**What is Air Quality Insights** 
 - Index used to determine air quality on a day-to-day basis
 - Determine the impact of polluted air on our health in a given time period
 - Measurement on amount of particles, not mass
 - Data analytics → process of collecting, processing, and analyzing air quality data to extract meaningful insights
 
-## Why we choose this topic?
+**Why we choose this topic?**
 - A valuable source of information about the condition of the environment
 - Investigate seasonal trends to identify the most impacted geographical locations
 - Provide an outlook at mining and analyzing air quality data to aid in climate change efforts
