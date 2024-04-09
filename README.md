@@ -1,11 +1,22 @@
-#  Air Quality Insights: Leveraging Data Science for Climate Action
+#  Air Quality Insights(AQI) 
+## Leveraging Data Science for Climate Action
 > Authors: Aditya Kandel, Zijun Ye, Kian Zahrai
 >
 > Group 20 Project Component - CSI4142: Fundamental of Data Science
 
 # About 
-- Introduction
-- Dashboard display
+## What is Air Quality Insights
+- Index used to determine air quality on a day-to-day basis
+- Determine the impact of polluted air on our health in a given time period
+- Measurement on amount of particles, not mass
+- Data analytics → process of collecting, processing, and analyzing air quality data to extract meaningful insights
+
+## Why we choose this topic?
+- A valuable source of information about the condition of the environment
+- Investigate seasonal trends to identify the most impacted geographical locations
+- Provide an outlook at mining and analyzing air quality data to aid in climate change efforts
+- Determine the policies for taking action to reduce emissions
+
 
 # Running Locally - instruction 
 - Postgres database setup
@@ -25,7 +36,6 @@ Once the data is loaded into the data warehouse, various data science techniques
 ## Phase 4: Data Mining 
 The dataset will finally undergo data mining to discover patterns and relationships that can help in predicting air quality, identifying factors influencing pollution levels, and suggesting measures for improvement.
 
-[Datasets Used](https://drive.google.com/file/d/1p0F-jHzbMgouGrf6BxgvV328o7KwQNOt/view?usp=sharing)
 
 # License 
-
+[Datasets Used](https://drive.google.com/file/d/1p0F-jHzbMgouGrf6BxgvV328o7KwQNOt/view?usp=sharing)
