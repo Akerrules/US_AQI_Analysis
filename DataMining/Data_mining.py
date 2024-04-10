@@ -28,7 +28,7 @@ def summarization(df):
  
 
 
-    # ======================  Curve Diagram: Annual avaerage AQI ======================
+    # ======================  Curve Diagram: Annual Average AQI ======================
     # Group by year and month, then calculate the average AQI
     # Group by year and calculate the average AQI
     annual_avg_aqi = df.groupby('year')['AQI'].mean().reset_index()
@@ -63,7 +63,7 @@ def summarization(df):
     # Show the plot
     plt.show()
 
-    # ======================  Histogram: AQI categories ======================
+    # ======================  Histogram: AQI Categories ======================
     # Define the AQI categories 
     bins = [0, 50, 100, 150, 200, 300, 500]
     labels = ['Good', 'Moderate', 'Unhealthy(Sensitive Groups)', 'Unhealthy', 'Very Unhealthy', 'Hazardous']
@@ -92,7 +92,7 @@ def summarization(df):
 
 
 
-    # ======================  Histogram: AQHI categories  ======================
+    # ======================  Histogram: AQHI Categories  ======================
     # Define the AQHI categories 
     bins2 = [0,1,2,3,4]
     labels2 = ['Low', 'Moderate','High','Critical']
@@ -162,7 +162,7 @@ def summarization(df):
     plt.tight_layout()  # Adjust the layout to make sure everything fits without overlapping
     plt.show()
 
-    # ======================  Scatter plot: weather precipitation  ======================
+    # ======================  Scatter plot: Weather Precipitation  ======================
     # for weather dimension
     # Group by year and then calculate the average precipitation
     annual_avg_prcp = df.groupby('year')['prcp'].mean().reset_index()
@@ -205,7 +205,7 @@ def summarization(df):
     plt.show()
 
 
-    # ======================  Boxplot: Min and Max temperature  ======================
+    # ======================  Boxplot: Min and Max Temperature  ======================
     # Boxplot for max temperature & min temperature 
     # Find the record with the min temperature and the max temperature for each month of each year
     monthly_min = df.groupby(['year', 'month'])['tmin'].min().reset_index()
