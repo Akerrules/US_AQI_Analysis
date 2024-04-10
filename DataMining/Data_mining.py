@@ -309,19 +309,19 @@ def summarization(df):
 
 # ================== Normalize Numeric Values ================== # 
 
-def normalize_numeric(df, coloum_name):
+def normalize_numeric(df, column_name):
     # column_no2 = 'NO2 Mean' 
-    data = df[[coloum_name]]
+    data = df[[column_name]]
         
         # Normalize
     scaler = MinMaxScaler()
     normalized_data = scaler.fit_transform(data).round(2)
 
     # Add the normalized column to the df if it doesn't exist yet
-    if ("Normalized "+coloum_name) not in df:
-        df["Normalized "+coloum_name] = normalized_data
+    if ("Normalized "+column_name) not in df:
+        df["Normalized "+column_name] = normalized_data
 
-    print(df["Normalized "+coloum_name])
+    print(df["Normalized "+column_name])
     return df
 
 # ================== Hot Encdoing FactTable Values ================== # 
